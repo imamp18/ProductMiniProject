@@ -18,27 +18,4 @@ class ProductService {
     }
   }
 }
-  // final Dio _dio = Dio(BaseOptions(baseUrl: 'https://fakestoreapi.com'));
-  //
-  // Future<List<ProductDataListModel>> getProducts() async {
-  //   try {
-  //     final response = await _dio.get('/products');
-  //     final List<ProductDataListModel> products = (response.data as List)
-  //         .map((productJson) => ProductDataListModel.fromJson(productJson))
-  //         .toList();
-  //     return products;
-  //   } catch (error) {
-  //     throw Exception('Failed to fetch products.');
-  //   }
-  // }
-  //
-  // Future<ProductDataListModel> getProductDetail(int productId) async {
-  //   try {
-  //     final response = await _dio.get('/products/$productId');
-  //     final product = ProductDataListModel.fromJson(response.data);
-  //     return product;
-  //   } catch (error) {
-  //     throw Exception('Failed to fetch product detail.');
-  //   }
-  // }
 
